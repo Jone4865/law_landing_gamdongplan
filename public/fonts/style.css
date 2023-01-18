@@ -1,18 +1,18 @@
 @font-face {
   font-family: "GyeonggiBatang";
-  src: url("Batang_Bold.woff") format("woff");
+  src: url("GyeonggiBatang_Bold.otf") format("otf");
   font-weight: bold;
 }
 
 @font-face {
   font-family: "GyeonggiBatang";
-  src: url("Batang_Regular.woff") format("woff");
+  src: url("GyeonggiBatang_Regular.otf") format("otf");
   font-weight: 500;
 }
 
 @font-face {
   font-family: "GyeonggiBatang";
-  src: url("GyeonggiBatang_Regular.otf") format("otf");
+  src: url("GyeonggiBatang_Medium.otf") format("otf");
   font-weight: normal;
 }
 

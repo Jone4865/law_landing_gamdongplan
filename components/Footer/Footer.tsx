@@ -27,10 +27,10 @@ export default function Footer() {
         onClick={() => setModal(false)}
         className={cx(modal ? "modal" : "none")}
       >
-        <div
-          className={cx("modal_body")}
-          onClick={(e) => e.stopPropagation()}
-        ></div>
+        <div className={cx("modal_body")} onClick={(e) => e.stopPropagation()}>
+          약관 준비중입니다.
+          <span onClick={() => setModal(false)}>X</span>
+        </div>
       </div>
       <div className={cx("container")}>
         <div className={cx("wrap")}>

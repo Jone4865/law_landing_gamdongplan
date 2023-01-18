@@ -140,6 +140,17 @@
   width: 300px;
   height: 300px;
   background-color: white;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 3;
+  span {
+    cursor: pointer;
+  }
 }
 
 .none {
