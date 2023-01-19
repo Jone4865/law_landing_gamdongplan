@@ -1,13 +1,10 @@
 import styles from "./Body.module.scss";
-import className from "classNames/bind";
 
 import Item_Top from "./Item/Item_Top/Item_Top";
 import Item_Two from "./Item/Item_Two/Item_Two";
 import Items from "./Item/Items/Items";
 import PostQuestion from "./Item/PostQuestion/PostQuestion";
 import Step from "./Item/Step/Step";
-
-const cx = className.bind(styles);
 
 export default function Body() {
   const IDs = ["블로그", "인스타", "페이스북", "유튜브", "IMC마케팅"];
