@@ -20,13 +20,15 @@ export default function postQuestion(
 
   if (req.body) {
     const mailOptions = {
-      from: req.body.email,
+      from: `${JSON.parse(req.body).email}`,
       to: process.env.NEXT_PUBLIC_SEND_ADDRESS,
       subject: `${process.env.NEXT_PUBLIC_SURVICE_NAME} 문의 메일`,
-      html: `<p><div>문의 내용 : ${JSON.parse(req.body).content}</div>
+      html: `<p><div>문의자 이메일 : ${
+        JSON.parse(req.body).email
+      }</div><div>문의 내용 : ${JSON.parse(req.body).content}</div>
     <div>연락처 : ${JSON.parse(req.body).cellPhone}</div></p>`,
     };
-
+    console.log(`${JSON.parse(req.body).email}`);
     transporter.sendMail(mailOptions, (err: any) => {
       if (err) {
         console.error(err);
