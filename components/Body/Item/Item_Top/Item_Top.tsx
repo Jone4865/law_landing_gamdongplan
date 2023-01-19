@@ -6,7 +6,7 @@ const cx = className.bind(styles);
 
 export default function Item_Top() {
   return (
-    <li>
+    <div>
       <div className={cx("bg")}>
         <div className={cx("mask")} />
         <video className={cx("video")} muted autoPlay loop>
@@ -29,6 +29,6 @@ export default function Item_Top() {
           </div>
         </div>
       </div>
-    </li>
+    </div>
   );
 }

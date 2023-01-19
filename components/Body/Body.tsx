@@ -86,7 +86,7 @@ export default function Body() {
 
   return (
     <div className={styles.item_container}>
-      <ul className={styles.item_wrap}>
+      <div className={styles.item_wrap}>
         <div id="홈">
           <Item_Top />
         </div>
@@ -111,7 +111,7 @@ export default function Body() {
         <div id="문의하기">
           <PostQuestion />
         </div>
-      </ul>
+      </div>
     </div>
   );
 }

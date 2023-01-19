@@ -37,7 +37,7 @@ export default function Items({
   }, [isPc]);
 
   return (
-    <div className={cx("container")}>
+    <div className={cx(`container${name}`)}>
       <div className={cx(`top_container${name}`)}>
         <div className={cx(`top_wrap${name}`)}>0{index + 1}</div>
       </div>
