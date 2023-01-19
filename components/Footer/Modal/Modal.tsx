@@ -10,8 +10,8 @@ export default function Modal() {
   return (
     <div className={cx("container")}>
       <span className={cx("title")}>제 1조 목적</span>본 이용약관은
-      “감동기획”(이하 "사이트")의 서비스의 이용조건과 운영에 관한 제반 사항
-      규정을 목적으로 합니다.
+      &#34;감동기획&#34;(이하 &#34;사이트&#34;)의 서비스의 이용조건과 운영에
+      관한 제반 사항 규정을 목적으로 합니다.
       <span className={cx("title")}>제 2조 용어의 정의</span>
       본 약관에서 사용되는 주요한 용어의 정의는 다음과 같습니다. <br />
       1) 이용자 : 사이트에 방문하여 사이트를 이용하는 이용자를 말합니다. <br />
