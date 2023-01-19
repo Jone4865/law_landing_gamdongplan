@@ -2,12 +2,14 @@
 
 .container {
   background-color: #f9f9f9;
-  color: #838080;
   font-size: 14px;
   min-height: 225px;
   border-bottom: solid 1px #dfdfdf;
   display: flex;
   align-items: center;
+  font-family: NotoSans;
+  color: #8f8f8fb6;
+  letter-spacing: 0;
   @include view("mobile") {
     padding-top: 50px;
     padding-bottom: 20px;
@@ -76,7 +78,7 @@
   background-color: #f9f9f9;
   display: flex;
   justify-content: center;
-  color: #888;
+  color: #8f8f8fb6;
 }
 
 .bottom_wrap {

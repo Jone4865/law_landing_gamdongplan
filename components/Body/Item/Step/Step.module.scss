@@ -33,6 +33,8 @@
   justify-content: center;
   display: flex;
   margin: 35px 0;
+  font-family: NotoSans;
+  letter-spacing: 0;
   @include view("middle") {
     font-size: 1.3vw;
   }
@@ -82,6 +84,9 @@
   margin: 0 auto;
   margin-top: 30px;
   max-width: 1300px;
+  font-family: NotoSans;
+  color: #8f8f8fb6;
+  letter-spacing: 0;
 
   @include view("small") {
     width: 85vw;

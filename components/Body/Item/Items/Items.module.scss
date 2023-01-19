@@ -239,6 +239,8 @@
 .content_top {
   margin: 40px 0;
   line-height: 1.45;
+  font-family: NotoSans;
+  color: #8f8f8fb6;
   @include view("small") {
     margin: 20px 0;
   }
@@ -252,6 +254,8 @@
 
 .content_bottom {
   line-height: 1.45;
+  font-family: NotoSans;
+  color: #8f8f8fb6;
 }
 
 .IMC {
