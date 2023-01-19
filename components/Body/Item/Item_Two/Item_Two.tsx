@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import styles from "./Item_Two.module.scss";
-import className from "classNames/bind";
+import className from "classnames/bind";
 import Image from "next/image";
-import CustomRatioImage from "../../../Elements/CustomRatioImage";
+
 const cx = className.bind(styles);
 
 export default function Item_Two() {

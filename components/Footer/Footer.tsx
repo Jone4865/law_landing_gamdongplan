@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import router from "next/router";
 import styles from "./Footer.module.scss";
-import className from "classNames/bind";
+import className from "classnames/bind";
 import Image from "next/image";
 
 const cx = className.bind(styles);

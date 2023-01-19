@@ -1,5 +1,5 @@
 import styles from "./Item_Top.module.scss";
-import className from "classNames/bind";
+import className from "classnames/bind";
 import Image from "next/image";
 
 const cx = className.bind(styles);

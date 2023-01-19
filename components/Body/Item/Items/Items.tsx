@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import styles from "./Items.module.scss";
-import className from "classNames/bind";
+import className from "classnames/bind";
 import CustomRatioImage from "../../../Elements/CustomRatioImage";
 
 const cx = className.bind(styles);

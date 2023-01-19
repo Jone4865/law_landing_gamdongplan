@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./CustomRatioImage.module.scss";
-import className from "classNames/bind";
+import className from "classnames/bind";
 
 interface Props {
   src: string;

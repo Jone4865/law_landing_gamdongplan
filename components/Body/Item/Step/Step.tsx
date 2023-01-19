@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useMediaQuery } from "react-responsive";
 
 import styles from "./Step.module.scss";
-import className from "classNames/bind";
+import className from "classnames/bind";
 import Image from "next/image";
 
 const cx = className.bind(styles);

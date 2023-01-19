@@ -3,7 +3,7 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import styles from "./PostQuestion.module.scss";
-import className from "classNames/bind";
+import className from "classnames/bind";
 import Image from "next/image";
 
 const cx = className.bind(styles);

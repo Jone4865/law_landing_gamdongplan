@@ -3,7 +3,7 @@ import router from "next/router";
 import { Link } from "react-scroll";
 
 import styles from "./Header.module.scss";
-import className from "classNames/bind";
+import className from "classnames/bind";
 import Image from "next/image";
 
 const cx = className.bind(styles);
