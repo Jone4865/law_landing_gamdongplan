@@ -22,8 +22,8 @@ export default function App({ Component, pageProps }: AppProps) {
           content="고객이 감동할때까지, 감동기획"
         />
         <meta property="og:image" content="/img/meta_img.png" />
-        <meta property="og:image:width" content="450" />
-        <meta property="og:image:height" content="260" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="650" />
       </Head>
       <Component {...pageProps} />
     </>
