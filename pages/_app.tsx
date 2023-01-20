@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <title>감동기획</title>
         <meta name="Keywords" content="kamdongplan" />
         <meta name="Keywords" content="kamdong" />
-        {/* <meta property="og:url" content="http://realfiex.com/" /> */}
+        <meta property="og:url" content={process.env.NEXT_PUBLIC_SURVICE_URL} />
         <meta property="og:title" content="감동기획" />
         <meta
           property="og:description"
