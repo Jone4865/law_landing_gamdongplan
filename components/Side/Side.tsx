@@ -51,21 +51,20 @@ function Side({ modal, setModalState }: Props) {
           <span onClick={() => setModalState(false)}>X</span>
         </h1>
         {Buttons.map((button, index) => (
-          <div key={button} className={styles.side_hover}>
-            <Link
-              to={button}
-              spy={true}
-              smooth={true}
-              offset={
-                button === "역량" ? -55 : button === "문의하기" ? -70 : -50
-              }
-              onClick={() => {
-                setModalState(false);
-              }}
-            >
+          <Link
+            key={button}
+            to={button}
+            spy={true}
+            smooth={true}
+            offset={button === "역량" ? -55 : button === "문의하기" ? -70 : -50}
+            onClick={() => {
+              setModalState(false);
+            }}
+          >
+            <div className={styles.side_hover}>
               <span>{button}</span>
-            </Link>
-          </div>
+            </div>
+          </Link>
         ))}
       </div>
     </div>

@@ -146,7 +146,7 @@
 
 .bottom_title_right {
   color: #474747;
-  margin: 20px 0;
+  margin: 50px 0 20px 0;
   text-align: center;
   @include view("pc") {
     font-size: 1.36vw;
@@ -197,7 +197,7 @@
 .bottom_title_center {
   font-size: 1.36vw;
   color: #474747;
-  margin: 20px 0;
+  margin: 50px 0 20px 0;
   text-align: center;
   @include view("small") {
     font-size: 2.1vw;
@@ -238,7 +238,7 @@
 .bottom_title_left {
   font-size: 1.36vw;
   color: #474747;
-  margin: 20px 0;
+  margin: 50px 0 20px 0;
   text-align: center;
   @include view("small") {
     font-size: 2.1vw;

@@ -87,6 +87,7 @@
   flex-direction: column;
   margin: auto;
   width: 70vw;
+  font-family: NotoSans;
 
   @include view("small") {
     width: 95vw;
@@ -101,7 +102,6 @@
 
 .text_wrap {
   font-size: 14px;
-  font-weight: 100;
   @include view("mobile") {
     display: flex;
     flex-direction: column;
@@ -110,7 +110,6 @@
 
 .reserved {
   margin-top: 10px;
-  font-weight: 100;
   @include view("mobile") {
     margin: 0;
   }

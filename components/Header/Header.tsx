@@ -40,12 +40,14 @@ export default function Header({ setModalState }: Props) {
       <div className={styles.header_container}>
         <div className={styles.header_logo}>
           <div className={cx("image_wrap")}>
-            <Image
-              src={scrollY ? "/img/logo/logo_on.png" : "/img/logo/logo.png"}
-              onClick={() => router.push("/")}
-              alt="헤더 로고"
-              fill
-            />
+            <Link to={"홈"} spy={true} smooth={true}>
+              <Image
+                src={scrollY ? "/img/logo/logo_on.png" : "/img/logo/logo.png"}
+                onClick={() => router.push("/")}
+                alt="헤더 로고"
+                fill
+              />
+            </Link>
           </div>
         </div>
         <div>
