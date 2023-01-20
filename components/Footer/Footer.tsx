@@ -3,7 +3,6 @@ import router from "next/router";
 import styles from "./Footer.module.scss";
 import className from "classnames/bind";
 import Image from "next/image";
-import Modal from "./Modal/Modal";
 
 const cx = className.bind(styles);
 
@@ -24,21 +23,6 @@ export default function Footer() {
   }, [modal]);
   return (
     <div>
-      <div
-        onClick={() => setModal(false)}
-        className={cx(modal ? "modal" : "none")}
-      >
-        <div className={cx("modal_wrap")} onClick={(e) => e.stopPropagation()}>
-          <div className={cx("terms_wrap")}>
-            <div className={cx("terms_modal")}>
-              <Image src="/img/logo/logo_on.png" alt="약관로고" fill />
-            </div>
-            <div></div>
-          </div>
-          <Modal />
-          <button onClick={() => setModal(false)}>확인</button>
-        </div>
-      </div>
       <div className={cx("container")}>
         <div className={cx("wrap")}>
           <div className={cx("top_container")}>
@@ -64,9 +48,7 @@ export default function Footer() {
             <div className={cx("top_wrap")}>
               <span className={cx("title")}>약관</span>
               <span
-                onClick={() => {
-                  setModal(true);
-                }}
+                onClick={() => router.push("/Terms")}
                 className={cx("content", "terms")}
               >
                 서비스 이용약관
